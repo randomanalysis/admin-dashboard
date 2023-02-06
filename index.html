@@ -14,43 +14,208 @@
         <div class="header">
 
             <div class="h-row-1">
-                Header row 1
+
+                <div class="search-area">
+                    <img class="header-icon" id="search-icon" src="./icons/magnify.svg" alt="search icon" width="30", height="30">
+        
+                    <input class="search-input" type="text" id="searchresult" name="searchresult" placeholder="Search projects"><br><br>
+                </div>
+
+                <div class ="h1-icons">
+                    <img class="header-icon" src="./icons/bell-ring-outline.svg" alt="bell icon" width="30", height="30">
+                    <img class="header-icon" src="./icons/account-box.svg" alt="account icon" width="30", height="30">
+                    <h3>Morgan Oakley</h3>
+                </div>
+
             </div>
 
             <div class="h-row-2">
-                Header row 2
+                
+                <div class="greeting">
+                    <img class="header-icon" id="greeting-icon" src="./icons/hand-wave-outline.svg" alt="search icon" width="30", height="30">
+                    <div class="greeting-text">
+                        <div class="greeting">Hi there,</div>
+                        <div class="name">Morgan Oakley (@morganoakley)</div>
+                    </div>
+                </div>
+        
+                <div class="header-buttons">
+                    <button class="header-button">New</button>
+                    <button class="header-button">Upload</button>
+                    <button class="header-button">Share</button>
+                </div>
+                
+
             </div>
 
         </div>
 
         <div class="sidebar">
 
-            <div class="sb-logo">
-                Sidebar logo
+            <div class="sb-header">
+                <img class="sb-icon" src="./icons/view-dashboard-outline.svg" alt="dashboard icon" width="45", height="45">Dashboard
             </div>
 
-            <div class="sb-group-1">
-                Sidebar group 1
-            </div>
+            <ul class="sb-nav-group">
+                <li><img class="sb-icon" src="./icons/home-outline.svg" alt="home icon" width="35", height="35">Home</li>
+                <li><img class="sb-icon" src="./icons/card-account-details-outline.svg" alt="account icon" width="35", height="35">Profile</li>
+                <li><img class="sb-icon" src="./icons/message-outline.svg" alt="message icon" width="35", height="35">Messages</li>
+                <li><img class="sb-icon" src="./icons/history.svg" alt="history icon" width="35", height="35">History</li>
+                <li><img class="sb-icon" src="./icons/note-multiple-outline.svg" alt="tasks icon" width="35", height="35">Tasks</li>
+                <li><img class="sb-icon" src="./icons/account-group-outline.svg" alt="communities icon" width="35", height="35">Communities</li>
+            </ul>
 
-            <div class="sb-group-2">
-                Sidebar group 2
-            </div>
-            
+            <ul class="sb-settings-group">
+                <li><img class="sb-icon" src="./icons/cog-outline.svg" alt="settings icon" width="35", height="35">Settings</li>
+                <li><img class="sb-icon" src="./icons/help-box-outline.svg" alt="support icon" width="35", height="35">Support</li>
+                <li><img class="sb-icon" src="./icons/shield-check-outline.svg" alt="privacy icon" width="35", height="35">Privacy</li>
+            </ul>
+
         </div>
         
         <div class="main-content">
             
-            <div class="mc-projects">
-                Your projects
+            <div class="projects">
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Curabitur gravida arcu ac tortor dignissim convallis aenean et.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Fermentum iaculis eu non diam phasellus vestibulum lorem.</div>
+                    </div>
+                    <div class="project-interactions">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post" width="20", height="20"></li>
+                            <li class="interact-option"><img src="./icons/share-variant-outline.svg" alt="fork project" width="20", height="20"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+
             </div>
 
             <div class="mc-announcements">
-                Announcemnets
+
+                <div class="announcements-section-heading">Announcements</div>
+                <div class="announcements-box">
+                    <div class="announcement-heading">Site Maintenance</div>
+                    <div class="announcement-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <hr>
+                    <div class="announcement-heading">Community Share Day</div>
+                    <div class="announcement-description">Et malesuada fames ac turpis egestas maecenas pharetra.</div>
+                    <hr>
+                    <div class="announcement-heading">Updated Privacy Policy</div>
+                    <div class="announcement-description">Sed turpis tincidunt id aliquet risus feugiat in ante metus.</div>
+                </div>
+                
             </div>
 
             <div class="mc-trending">
-                Trending
+                
+                <div class="announcements-section-heading">Trending</div>
+                
+                <div class="trending-box">
+                    <div class="trending-profile">
+                        <div><img class="trending-icon" src="./icons/account-box.svg" alt="trending profile image" width="30", height="30"></div>
+                        <div class="trending-info">
+                            <div class="trending-username">@tegan</div>
+                            <div class="trending-tagline">World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="trending-icon" src="./icons/account-box.svg" alt="trending profile image" width="30", height="30"></div>
+                        <div class="trending-info">
+                            <div class="trending-username">@morgan</div>
+                            <div class="trending-tagline">Super Cool Project</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="trending-icon" src="./icons/account-box.svg" alt="trending profile image" width="30", height="30"></div>
+                        <div class="trending-info">
+                            <div class="trending-username">@kendall</div>
+                            <div class="trending-tagline">Life Changing App</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img class="trending-icon" src="./icons/account-box.svg" alt="trending profile image" width="30", height="30"></div>
+                        <div class="trending-info">
+                            <div class="trending-username">@alex</div>
+                            <div class="trending-tagline">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
